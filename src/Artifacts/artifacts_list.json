@@ -36,21 +36,21 @@
   },
   {
     "id": 6,
-    "name": "",
+    "name": "Everflowing Crystal Cloak",
     "image_path": "2/21/Artifact_Everflowing_Crystal_Cloak.gif",
     "slot": "Cape",
     "effect": "When worn, this cloak increases kingdom's crystal production by +1 per day"
   },
   {
     "id": 7,
-    "name": "",
+    "name": "Recanter's Cloak",
     "image_path": "3/36/Artifact_Recanter%27s_Cloak.gif",
     "slot": "Cape",
     "effect": "While wearing this cloak, neither you nor your opponent will be able to cast level 3 or higher spells during combat"
   },
   {
     "id": 8,
-    "name": "",
+    "name": "Cape of Velocity",
     "image_path": "d/d2/Artifact_Cape_of_Velocity.gif",
     "slot": "Cape",
     "effect": "Worn about the shoulders, this cape increases the combat speed of all hero's creatures by +2"
@@ -294,154 +294,154 @@
     "effect": "This powerful orb causes hero's water spells to inflict an additional 50% damage"
   },
   {
-    "id": 0,
+    "id": 43,
     "name": "Orb of Tempestuous Fire",
     "image_path": "3/3a/Artifact_Orb_of_Tempestuous_Fire.gif",
     "slot": "Miscellaneous",
     "effect": "This powerful orb causes hero's fire spells to inflict an additional 50% damage"
   },
   {
-    "id": 43,
+    "id": 44,
     "name": "Tome of Earth",
     "image_path": "8/8b/Artifact_Tome_of_Earth.gif",
     "slot": "Miscellaneous",
     "effect": "This heavy book contains all spells in the School of Earth Magic. It must be equipped for the spells to be available"
   },
   {
-    "id": 44,
+    "id": 45,
     "name": "Tome of Air",
     "image_path": "d/d8/Artifact_Tome_of_Air.gif",
     "slot": "Miscellaneous",
     "effect": "This heavy book contains all spells in the School of Air Magic. It must be equipped for the spells to be available"
   },
   {
-    "id": 45,
+    "id": 46,
     "name": "Tome of Water",
     "image_path": "e/e9/Artifact_Tome_of_Water.gif",
     "slot": "Miscellaneous",
     "effect": "This heavy book contains all spells in the School of Water Magic. It must be equipped for the spells to be available"
   },
   {
-    "id": 46,
+    "id": 47,
     "name": "Tome of Fire",
     "image_path": "5/5c/Artifact_Tome_of_Fire.gif",
     "slot": "Miscellaneous",
     "effect": "This heavy book contains all spells in the School of Fire Magic. It must be equipped for the spells to be available"
   },
   {
-    "id": 47,
+    "id": 48,
     "name": "Sphere of Permanence",
     "image_path": "0/00/Artifact_Sphere_of_Permanence.gif",
     "slot": "Miscellaneous",
     "effect": "Wielding this sphere renders your units immune to the dispel magic spell"
   },
   {
-    "id": 48,
+    "id": 49,
     "name": "Orb of Inhibition",
     "image_path": "d/d6/Artifact_Orb_of_Inhibition.gif",
     "slot": "Miscellaneous",
     "effect": "This powerful orb prevents all spell casting in combat"
   },
   {
-    "id": 49,
+    "id": 50,
     "name": "Orb of Vulnerability",
     "image_path": "b/ba/Artifact_Orb_of_Vulnerability.gif",
     "slot": "Miscellaneous",
     "effect": "During combat, this orb negates the natural magic resistance of all creatures on the battlefield"
   },
   {
-    "id": 50,
+    "id": 51,
     "name": "Bird of Perception",
     "image_path": "6/68/Artifact_Bird_of_Perception.gif",
     "slot": "Miscellaneous",
     "effect": "This figurine increases hero's eagle eye skill by 5%"
   },
   {
-    "id": 51,
+    "id": 52,
     "name": "Stoic Watchman",
     "image_path": "9/9f/Artifact_Stoic_Watchman.gif",
     "slot": "Miscellaneous",
     "effect": "This figurine increases your eagle eye skill by 10%"
   },
   {
-    "id": 52,
+    "id": 53,
     "name": "Emblem of Cognizance",
     "image_path": "a/ac/Artifact_Emblem_of_Cognizance.gif",
     "slot": "Miscellaneous",
     "effect": "This item increases hero's eagle eye skill by 15%"
   },
   {
-    "id": 0,
+    "id": 54,
     "name": "Clover of Fortune",
     "image_path": "5/5f/Artifact_Clover_of_Fortune.gif",
     "slot": "Miscellaneous",
     "effect": "The Clover of Fortune increases hero's luck by +1"
   },
   {
-    "id": 0,
+    "id": 55,
     "name": "Ladybird of Luck",
     "image_path": "4/43/Artifact_Ladybird_of_Luck.gif",
     "slot": "Miscellaneous",
     "effect": "The Ladybird of Luck increases hero's Luck by +1"
   },
   {
-    "id": 0,
+    "id": 56,
     "name": "Cards of Prophecy",
     "image_path": "5/5d/Artifact_Cards_of_Prophecy.gif",
     "slot": "Miscellaneous",
     "effect": "The Cards of Prophecy increase hero's luck by +1"
   },
   {
-    "id": 0,
+    "id": 57,
     "name": "Hourglass of the Evil Hour",
     "image_path": "7/70/Artifact_Hourglass_of_the_Evil_Hour.gif",
     "slot": "Miscellaneous",
     "effect": "This item negates all luck bonuses during combat for both you and your opponent"
   },
   {
-    "id": 0,
+    "id": 58,
     "name": "Glyph of Gallantry",
     "image_path": "4/41/Artifact_Glyph_of_Gallantry.gif",
     "slot": "Miscellaneous",
     "effect": "The Glyph of Gallantry increases hero's morale by +1"
   },
   {
-    "id": 0,
+    "id": 59,
     "name": "Crest of Valor",
     "image_path": "5/5a/Artifact_Crest_of_Valor.gif",
     "slot": "Miscellaneous",
     "effect": "The Crest of Valor increases hero's morale by +1"
   },
   {
-    "id": 0,
+    "id": 60,
     "name": "Badge of Courage",
     "image_path": "1/15/Artifact_Badge_of_Courage.gif",
     "slot": "Miscellaneous",
     "effect": "When equipped, The Badge of Courage increases hero's morale by +1. It also gives immunity to mind spells, although the effect is not in the artifact's description"
   },
   {
-    "id": 0,
+    "id": 61,
     "name": "Spirit of Oppression",
     "image_path": "d/d4/Artifact_Spirit_of_Oppression.gif",
     "slot": "Miscellaneous",
     "effect": "This item negates all morale bonuses during combat for both you and your opponent"
   },
   {
-    "id": 0,
+    "id": 62,
     "name": "Spyglass",
     "image_path": "5/51/Artifact_Spyglass.gif",
     "slot": "Miscellaneous",
     "effect": "The Spyglass increases your scouting radius by +1"
   },
   {
-    "id": 0,
+    "id": 63,
     "name": "Speculum",
     "image_path": "0/0a/Artifact_Speculum.gif",
     "slot": "Miscellaneous",
     "effect": "The Speculum increases hero's scouting radius by +1"
   },
   {
-    "id": 0,
+    "id": 64,
     "name": "Golden Bow",
     "image_path": "5/54/Artifact_Golden_Bow.gif",
     "slot": "Miscellaneous",

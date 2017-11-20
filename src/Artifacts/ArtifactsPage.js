@@ -1,21 +1,24 @@
 import React, { Component } from 'react';
 import ARTIFACTS from './artifacts_list.json';
-import ArtifactsList from './ArtifactsList';
+import ArtifactsTable from './ArtifactsTable';
+import SearchBar from './SearchBar';
 
-class SearchBar extends Component {
-  render() {
-    return (
-      <input type="text" value="" />
-    );
-  }
-}
+
 
 class ArtifactsPage extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      filterText: ""
+    }
+  }
+
   render() {
     return (
       <div>
-        <SearchBar />
-        <ArtifactsList artifacts={ARTIFACTS} />
+        <SearchBar filterText={this.state.filterText} />
+        <ArtifactsTable artifacts={ARTIFACTS} filterText={this.state.filterText}/>
       </div>
     );
   }
