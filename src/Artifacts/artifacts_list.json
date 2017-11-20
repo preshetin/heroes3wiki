@@ -1,0 +1,450 @@
+[
+  {
+    "id": 1,
+    "name": "Cape of Conjuring",
+    "image_path": "f/fe/Artifact_Cape_of_Conjuring.gif",
+    "slot": "Cape",
+    "effect": "Worn about the shoulders, this item increases the duration of all your spells by 3."
+  },
+  {
+    "id": 2,
+    "name": "Dragon Wing Tabard",
+    "image_path": "d/d1/Artifact_Dragon_Wing_Tabard.gif",
+    "slot": "Cape",
+    "effect": "Worn on the shoulders, this item increases hero's knowledge and power skills by +2."
+  },
+  {
+    "id": 3,
+    "name": "Vampire's Cowl",
+    "image_path": "b/b3/Artifact_Vampire%27s_Cowl.gif",
+    "slot": "Cape",
+    "effect": "Worn about the shoulders, this cowl increases hero's necromancy skill by 10%"
+  },
+  {
+    "id": 4,
+    "name": "",
+    "image_path": "b/b0/Artifact_Surcoat_of_Counterpoise.gif",
+    "slot": "Cape",
+    "effect": "Worn about the shoulders, this item increases your magic resistance by 10%"
+  },
+  {
+    "id": 5,
+    "name": "",
+    "image_path": "d/d0/Artifact_Ambassador%27s_Sash.gif",
+    "slot": "Cape",
+    "effect": "Worn about the shoulders, the Ambassador's Sash reduces the cost of surrendering by 10%"
+  },
+  {
+    "id": 6,
+    "name": "",
+    "image_path": "2/21/Artifact_Everflowing_Crystal_Cloak.gif",
+    "slot": "Cape",
+    "effect": "When worn, this cloak increases kingdom's crystal production by +1 per day"
+  },
+  {
+    "id": 7,
+    "name": "",
+    "image_path": "3/36/Artifact_Recanter%27s_Cloak.gif",
+    "slot": "Cape",
+    "effect": "While wearing this cloak, neither you nor your opponent will be able to cast level 3 or higher spells during combat"
+  },
+  {
+    "id": 8,
+    "name": "",
+    "image_path": "d/d2/Artifact_Cape_of_Velocity.gif",
+    "slot": "Cape",
+    "effect": "Worn about the shoulders, this cape increases the combat speed of all hero's creatures by +2"
+  },
+  {
+    "id": 9,
+    "name": "",
+    "image_path": "3/3d/Artifact_Angel_Wings.gif",
+    "slot": "Cape",
+    "effect": "Worn about the shoulders, these wings allow you to fly"
+  },
+  {
+    "id": 10,
+    "name": "",
+    "image_path": "c/c4/Artifact_Cloak_of_the_Undead_King.gif",
+    "slot": "Cape",
+    "effect": "From dead allies, 30% are resurrected as skeletons. If a hero already has Necromancy secondary skill then the percentages are added to the skill and the level of skill determines what type is resurrected: basic – walking dead; advanced – wights; expert – liches"
+  },
+  {
+    "id": 11,
+    "name": "",
+    "image_path": "f/fa/Artifact_Dragonbone_Greaves.gif",
+    "slot": "Feet",
+    "effect": "Worn on the feet, this item increases hero's knowledge and power skills by +1"
+  },
+  {
+    "id": 12,
+    "name": "",
+    "image_path": "7/72/Artifact_Boots_of_Speed.gif",
+    "slot": "Feet",
+    "effect": "Worn on the feet, these boots increase hero's movement rate over land"
+  },
+  {
+    "id": 13,
+    "name": "",
+    "image_path": "4/4d/Artifact_Dead_Man%27s_Boots.gif",
+    "slot": "Feet",
+    "effect": "Worn on the feet, these boots increase your necromancy skill by 15%"
+  },
+  {
+    "id": 14,
+    "name": "",
+    "image_path": "7/71/Artifact_Boots_of_Polarity.gif",
+    "slot": "Feet",
+    "effect": "Worn on the feet, these boots increase hero's magic resistance by 15%"
+  },
+  {
+    "id": 15,
+    "name": "",
+    "image_path": "7/78/Artifact_Sandals_of_the_Saint.gif",
+    "slot": "Feet",
+    "effect": "Worn on the feet, the Sandals of the Saint increase all four primary skills by +2"
+  },
+  {
+    "id": 16,
+    "name": "",
+    "image_path": "5/50/Artifact_Boots_of_Levitation.gif",
+    "slot": "Feet",
+    "effect": "When worn, these boots allow you to walk across water"
+  },
+  {
+    "id": 17,
+    "name": "",
+    "image_path": "8/87/Artifact_Helm_of_the_Alabaster_Unicorn.gif",
+    "slot": "Helm",
+    "effect": "Worn on the head, this item increases hero's knowledge skill by +1"
+  },
+  {
+    "id": 18,
+    "name": "",
+    "image_path": "8/8d/Artifact_Skull_Helmet.gif",
+    "slot": "Helm",
+    "effect": "Worn on the head, this item increases hero's knowledge skill by +2"
+  },
+  {
+    "id": 19,
+    "name": "",
+    "image_path": "0/0c/Artifact_Helm_of_Chaos.gif",
+    "slot": "Helm",
+    "effect": "Worn on the head, this item increases hero's knowledge skill by +3"
+  },
+  {
+    "id": 20,
+    "name": "",
+    "image_path": "a/a3/Artifact_Crown_of_the_Supreme_Magi.gif",
+    "slot": "Helm",
+    "effect": "Worn on the head, this item increases hero's knowledge skill by +4"
+  },
+  {
+    "id": 21,
+    "name": "",
+    "image_path": "c/c1/Artifact_Hellstorm_Helmet.gif",
+    "slot": "Helm",
+    "effect": "Worn on the head, this item increases hero's knowledge skill by +5"
+  },
+  {
+    "id": 22,
+    "name": "",
+    "image_path": "b/b7/Artifact_Crown_of_Dragontooth.gif",
+    "slot": "Helm",
+    "effect": "Worn on the head, this item increases hero's knowledge and power skills by +4"
+  },
+  {
+    "id": 23,
+    "name": "Thunder Helmet",
+    "image_path": "2/24/Artifact_Thunder_Helmet.gif",
+    "slot": "Helm",
+    "effect": "When equipped, Thunder Helmet increases hero's knowledge skill by +10, but reduces hero's power skill by -2"
+  },
+  {
+    "id": 24,
+    "name": "Sea Captain's Hat",
+    "image_path": "1/1e/Artifact_Sea_Captain%27s_Hat.gif",
+    "slot": "Helm",
+    "effect": "When worn, this hat increases hero's movement at sea, allows you to summon and destroy boats, and protects you from whirlpools"
+  },
+  {
+    "id": 25,
+    "name": "Helm of Heavenly Enlightenment",
+    "image_path": "a/a2/Artifact_Helm_of_Heavenly_Enlightenment.gif",
+    "slot": "Helm",
+    "effect": "Worn on the head, the Helm of Heavenly Enlightenment increases all four primary skills by +6"
+  },
+  {
+    "id": 26,
+    "name": "Spellbinder's Hat",
+    "image_path": "d/d1/Artifact_Spellbinder%27s_Hat.gif",
+    "slot": "Helm",
+    "effect": "When equipped, the hat enables hero to cast all 5th level spells"
+  },
+  {
+    "id": 27,
+    "name": "Admiral's Hat",
+    "image_path": "6/66/Artifact_Admiral%27s_Hat.gif",
+    "slot": "Helm",
+    "effect": "No boarding or unboarding ship penalty. Converts movement points between the hero's land and water movement"
+  },
+  {
+    "id": 28,
+    "name": "Shield of the Dwarven Lords",
+    "image_path": "4/4c/Artifact_Shield_of_the_Dwarven_Lords.gif",
+    "slot": "Left Hand",
+    "effect": "This left handed item increases hero's defense skill by +2"
+  },
+  {
+    "id": 29,
+    "name": "Shield of the Yawning Dead",
+    "image_path": "8/80/Artifact_Shield_of_the_Yawning_Dead.gif",
+    "slot": "Left Hand",
+    "effect": "This left handed item increases hero's defense skill by +3"
+  },
+  {
+    "id": 30,
+    "name": "Buckler of the Gnoll King",
+    "image_path": "e/eb/Artifact_Buckler_of_the_Gnoll_King.gif",
+    "slot": "Left Hand",
+    "effect": "This left handed item increases your Defense skill by +4"
+  },
+  {
+    "id": 31,
+    "name": "Targ of the Rampaging Ogre",
+    "image_path": "b/b7/Artifact_Targ_of_the_Rampaging_Ogre.gif",
+    "slot": "Left Hand",
+    "effect": "This left handed item increases hero's defense skill by +5"
+  },
+  {
+    "id": 32,
+    "name": "Shield of the Damned",
+    "image_path": "b/b3/Artifact_Shield_of_the_Damned.gif",
+    "slot": "Left Hand",
+    "effect": "This left handed item increases hero's defense skill by +6"
+  },
+  {
+    "id": 33,
+    "name": "Dragon Scale Shield",
+    "image_path": "9/97/Artifact_Dragon_Scale_Shield.gif",
+    "slot": "Left Hand",
+    "effect": "Held with the left hand, this item increases your attack and defense skills by +3"
+  },
+  {
+    "id": 34,
+    "name": "Lion's Shield of Courage",
+    "image_path": "3/31/Artifact_Lion%27s_Shield_of_Courage.gif",
+    "slot": "Left Hand",
+    "effect": "Held with the left hand, the Lion's Shield of Courage increases all four primary skills by +4"
+  },
+  {
+    "id": 35,
+    "name": "Sentinel's Shield",
+    "image_path": "c/c0/Artifact_Sentinel%27s_Shield.gif",
+    "slot": "Left Hand",
+    "effect": "Held with the left hand, this relic increases hero's defense skill by +12, but reduces attack skill by -3"
+  },
+  {
+    "id": 36,
+    "name": "Charm of Mana",
+    "image_path": "0/04/Artifact_Charm_of_Mana.gif",
+    "slot": "Miscellaneous",
+    "effect": "This charm helps you recover 1 extra spell point per day"
+  },
+  {
+    "id": 37,
+    "name": "Talisman of Mana",
+    "image_path": "9/98/Artifact_Talisman_of_Mana.gif",
+    "slot": "Miscellaneous",
+    "effect": "This talisman helps hero to recover 2 extra spell points per day"
+  },
+  {
+    "id": 38,
+    "name": "Mystic Orb of Mana",
+    "image_path": "f/fd/Artifact_Mystic_Orb_of_Mana.gif",
+    "slot": "Miscellaneous",
+    "effect": " This orb helps a hero to recover 3 extra spell points per day"
+  },
+  {
+    "id": 39,
+    "name": "Wizard's Well",
+    "image_path": "5/5e/Artifact_Wizard%27s_Well.gif",
+    "slot": "Miscellaneous",
+    "effect": "Regenerates all spell points each day"
+  },
+  {
+    "id": 40,
+    "name": "Orb of Silt",
+    "image_path": "5/52/Artifact_Orb_of_Silt.gif",
+    "slot": "Miscellaneous",
+    "effect": "This powerful orb causes hero's earth spells to inflict an additional 50% damage"
+  },
+  {
+    "id": 41,
+    "name": "Orb of the Firmament",
+    "image_path": "1/1f/Artifact_Orb_of_the_Firmament.gif",
+    "slot": "Miscellaneous",
+    "effect": "This powerful orb causes hero's air spells to inflict an additional 50% damage"
+  },
+  {
+    "id": 42,
+    "name": "Orb of Driving Rain",
+    "image_path": "c/c4/Artifact_Orb_of_Driving_Rain.gif",
+    "slot": "Miscellaneous",
+    "effect": "This powerful orb causes hero's water spells to inflict an additional 50% damage"
+  },
+  {
+    "id": 0,
+    "name": "Orb of Tempestuous Fire",
+    "image_path": "3/3a/Artifact_Orb_of_Tempestuous_Fire.gif",
+    "slot": "Miscellaneous",
+    "effect": "This powerful orb causes hero's fire spells to inflict an additional 50% damage"
+  },
+  {
+    "id": 43,
+    "name": "Tome of Earth",
+    "image_path": "8/8b/Artifact_Tome_of_Earth.gif",
+    "slot": "Miscellaneous",
+    "effect": "This heavy book contains all spells in the School of Earth Magic. It must be equipped for the spells to be available"
+  },
+  {
+    "id": 44,
+    "name": "Tome of Air",
+    "image_path": "d/d8/Artifact_Tome_of_Air.gif",
+    "slot": "Miscellaneous",
+    "effect": "This heavy book contains all spells in the School of Air Magic. It must be equipped for the spells to be available"
+  },
+  {
+    "id": 45,
+    "name": "Tome of Water",
+    "image_path": "e/e9/Artifact_Tome_of_Water.gif",
+    "slot": "Miscellaneous",
+    "effect": "This heavy book contains all spells in the School of Water Magic. It must be equipped for the spells to be available"
+  },
+  {
+    "id": 46,
+    "name": "Tome of Fire",
+    "image_path": "5/5c/Artifact_Tome_of_Fire.gif",
+    "slot": "Miscellaneous",
+    "effect": "This heavy book contains all spells in the School of Fire Magic. It must be equipped for the spells to be available"
+  },
+  {
+    "id": 47,
+    "name": "Sphere of Permanence",
+    "image_path": "0/00/Artifact_Sphere_of_Permanence.gif",
+    "slot": "Miscellaneous",
+    "effect": "Wielding this sphere renders your units immune to the dispel magic spell"
+  },
+  {
+    "id": 48,
+    "name": "Orb of Inhibition",
+    "image_path": "d/d6/Artifact_Orb_of_Inhibition.gif",
+    "slot": "Miscellaneous",
+    "effect": "This powerful orb prevents all spell casting in combat"
+  },
+  {
+    "id": 49,
+    "name": "Orb of Vulnerability",
+    "image_path": "b/ba/Artifact_Orb_of_Vulnerability.gif",
+    "slot": "Miscellaneous",
+    "effect": "During combat, this orb negates the natural magic resistance of all creatures on the battlefield"
+  },
+  {
+    "id": 50,
+    "name": "Bird of Perception",
+    "image_path": "6/68/Artifact_Bird_of_Perception.gif",
+    "slot": "Miscellaneous",
+    "effect": "This figurine increases hero's eagle eye skill by 5%"
+  },
+  {
+    "id": 51,
+    "name": "Stoic Watchman",
+    "image_path": "9/9f/Artifact_Stoic_Watchman.gif",
+    "slot": "Miscellaneous",
+    "effect": "This figurine increases your eagle eye skill by 10%"
+  },
+  {
+    "id": 52,
+    "name": "Emblem of Cognizance",
+    "image_path": "a/ac/Artifact_Emblem_of_Cognizance.gif",
+    "slot": "Miscellaneous",
+    "effect": "This item increases hero's eagle eye skill by 15%"
+  },
+  {
+    "id": 0,
+    "name": "Clover of Fortune",
+    "image_path": "5/5f/Artifact_Clover_of_Fortune.gif",
+    "slot": "Miscellaneous",
+    "effect": "The Clover of Fortune increases hero's luck by +1"
+  },
+  {
+    "id": 0,
+    "name": "Ladybird of Luck",
+    "image_path": "4/43/Artifact_Ladybird_of_Luck.gif",
+    "slot": "Miscellaneous",
+    "effect": "The Ladybird of Luck increases hero's Luck by +1"
+  },
+  {
+    "id": 0,
+    "name": "Cards of Prophecy",
+    "image_path": "5/5d/Artifact_Cards_of_Prophecy.gif",
+    "slot": "Miscellaneous",
+    "effect": "The Cards of Prophecy increase hero's luck by +1"
+  },
+  {
+    "id": 0,
+    "name": "Hourglass of the Evil Hour",
+    "image_path": "7/70/Artifact_Hourglass_of_the_Evil_Hour.gif",
+    "slot": "Miscellaneous",
+    "effect": "This item negates all luck bonuses during combat for both you and your opponent"
+  },
+  {
+    "id": 0,
+    "name": "Glyph of Gallantry",
+    "image_path": "4/41/Artifact_Glyph_of_Gallantry.gif",
+    "slot": "Miscellaneous",
+    "effect": "The Glyph of Gallantry increases hero's morale by +1"
+  },
+  {
+    "id": 0,
+    "name": "Crest of Valor",
+    "image_path": "5/5a/Artifact_Crest_of_Valor.gif",
+    "slot": "Miscellaneous",
+    "effect": "The Crest of Valor increases hero's morale by +1"
+  },
+  {
+    "id": 0,
+    "name": "Badge of Courage",
+    "image_path": "1/15/Artifact_Badge_of_Courage.gif",
+    "slot": "Miscellaneous",
+    "effect": "When equipped, The Badge of Courage increases hero's morale by +1. It also gives immunity to mind spells, although the effect is not in the artifact's description"
+  },
+  {
+    "id": 0,
+    "name": "Spirit of Oppression",
+    "image_path": "d/d4/Artifact_Spirit_of_Oppression.gif",
+    "slot": "Miscellaneous",
+    "effect": "This item negates all morale bonuses during combat for both you and your opponent"
+  },
+  {
+    "id": 0,
+    "name": "Spyglass",
+    "image_path": "5/51/Artifact_Spyglass.gif",
+    "slot": "Miscellaneous",
+    "effect": "The Spyglass increases your scouting radius by +1"
+  },
+  {
+    "id": 0,
+    "name": "Speculum",
+    "image_path": "0/0a/Artifact_Speculum.gif",
+    "slot": "Miscellaneous",
+    "effect": "The Speculum increases hero's scouting radius by +1"
+  },
+  {
+    "id": 0,
+    "name": "Golden Bow",
+    "image_path": "5/54/Artifact_Golden_Bow.gif",
+    "slot": "Miscellaneous",
+    "effect": "When wielded, the Golden Bow allows hero's ranged troops to shoot through any obstacle or at any range without penalty"
+  }
+]
