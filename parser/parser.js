@@ -2,22 +2,46 @@ const tabletojson = require("tabletojson");
 const fs = require('fs');
 const repository = require('./repository.js');
 
-const items = ['Artifacts', 'Spells'];
+const items = ['Artifacts', 'Spells', 'Creatures'];
 
-tabletojson.convertUrl(
-  'http://heroes.thelazy.net/wiki/List_of_artifacts',
-  { useFirstRowForHeadings: false, stripHtmlFromCells: false },
-  function(tablesAsJson) {
+items.forEach(item => {
 
-    const artifacts = [];
-    tablesAsJson[0].forEach( (row, index) => {
+  let url = '';
+  let getRow;
 
-      let artifact = repository.getArtifactFromRow(row, index + 1);
-
-      artifacts.push(artifact);
-    });
-
-    fs.writeFileSync('../src/Artifacts/artifacts_list.json', JSON.stringify(artifacts));
-    console.log('Write to file successful!');
+  switch (item) {
+    case 'Artifacts':
+      url    = repository.artifactsUrl;
+      getRow = repository.getArtifactFromRow;
+      break;
+    case 'Spells':
+      url    = repository.spellsUrl;
+      getRow = repository.getSpellFromRow;
+      break;
+    case 'Creatures':
+      url    = repository.creaturesUrl;
+      getRow = repository.getCreatureFromRow;
+      break;
+    default:
+      break;
   }
-);
+
+  tabletojson.convertUrl(
+    url,
+    { useFirstRowForHeadings: false, stripHtmlFromCells: false },
+    function(tablesAsJson) {
+
+      let resultObjects = [];
+      tablesAsJson[0].forEach( (row, index) => {
+
+        let resultObject = getRow(row, index + 1);
+        resultObjects.push(resultObject);
+      });
+
+      fs.writeFile(`src/${item}/${item.toLowerCase()}_list.json`, JSON.stringify(resultObjects), (err) => {
+        if (err) throw err;
+        console.log('The file has been saved!');
+      });
+    }
+  );
+});
