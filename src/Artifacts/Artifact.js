@@ -18,7 +18,7 @@ class Artifact extends Component {
 
   render() {
 
-    let IMG_URL_PART = 'http://heroes.thelazy.net/wiki/images/';
+    let IMG_URL_PART = 'http://heroes.thelazy.net';
 
     let effect = this.state.showEffect ? <div style={{ position: "absolute", maxWidth: "300px", backgroundColor: "white", border: "1px solid black"  }}>{this.props.artifact.effect}</div> : '';
 
