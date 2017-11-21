@@ -12,13 +12,20 @@ class ArtifactsPage extends Component {
     this.state = {
       filterText: ""
     }
+    this.handleFilterTextChange = this.handleFilterTextChange.bind(this);
+  }
+
+  handleFilterTextChange(filterText) {
+    this.setState({
+      filterText: filterText
+    });
   }
 
   render() {
     return (
       <div>
-        <SearchBar filterText={this.state.filterText} />
-        <ArtifactsTable artifacts={ARTIFACTS} filterText={this.state.filterText}/>
+        <SearchBar filterText={this.state.filterText} onFilterTextChange={this.handleFilterTextChange} />
+        <ArtifactsTable artifacts={ARTIFACTS} filterText={this.state.filterText} />
       </div>
     );
   }
