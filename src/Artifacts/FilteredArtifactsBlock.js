@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
 import ARTIFACTS from './artifacts_list.json';
-import ArtifactsTable from './ArtifactsTable';
-import SearchBar from './SearchBar';
+import ArtifactsBlock from './ArtifactsBlock';
+import FilterBar from './FilterBar';
 
-
-
-class ArtifactsPage extends Component {
+class FilteredArtifactsBlock extends Component {
 
   constructor(props) {
     super(props);
@@ -24,11 +22,11 @@ class ArtifactsPage extends Component {
   render() {
     return (
       <div>
-        <SearchBar filterText={this.state.filterText} onFilterTextChange={this.handleFilterTextChange} />
-        <ArtifactsTable artifacts={ARTIFACTS} filterText={this.state.filterText} />
+        <FilterBar filterText={this.state.filterText} onFilterTextChange={this.handleFilterTextChange} />
+        <ArtifactsBlock artifacts={ARTIFACTS} filterText={this.state.filterText} />
       </div>
     );
   }
 }
 
-export default ArtifactsPage;
+export default FilteredArtifactsBlock;

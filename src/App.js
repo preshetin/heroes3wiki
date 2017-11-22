@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ArtifactsPage from './Artifacts/ArtifactsPage';
+import FilteredArtifactsBlock from './Artifacts/FilteredArtifactsBlock';
 import './App.css'
 
 class App extends Component {
@@ -7,9 +7,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Heroes3 Wiki</h1>
+          <h1 className="App-title">Heroes 3 Wiki</h1>
         </header>
-        <ArtifactsPage />
+        <FilteredArtifactsBlock />
       </div>
     );
   }
