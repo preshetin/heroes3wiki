@@ -1,5 +1,6 @@
 import React from 'react'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Header from './Header'
 import FilteredArtifactsBlock from './Artifacts/FilteredArtifactsBlock';
 import './App.css'
 
@@ -19,16 +20,7 @@ const About = () => (
 const App = () => (
   <Router>
     <div className="App">
-      <header className="App-header">
-        <h1 className="App-title">Heroes 3 Wiki</h1>
-      </header>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/artifacts">Artifacts</Link></li>
-      </ul>
-
-      <hr/>
+      <Header />
 
       <Route exact path="/" component={Home}/>
       <Route path="/about" component={About}/>
