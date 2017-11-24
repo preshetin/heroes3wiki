@@ -14,17 +14,23 @@ class FilteredArtifactsBlock extends Component {
   }
 
   handleFilterTextChange(filterText) {
-    this.setState({
-      filterText: filterText
-    });
+    this.setState({ filterText });
   }
 
   render() {
     return (
-      <div>
-        <FilterBar filterText={this.state.filterText} onFilterTextChange={this.handleFilterTextChange} />
-        <ArtifactsBlock artifacts={ARTIFACTS} filterText={this.state.filterText} />
-      </div>
+      <section class="section">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-one-quarter">
+              <FilterBar filterText={this.state.filterText} onFilterTextChange={this.handleFilterTextChange} />
+            </div>
+            <div class="column">
+              <ArtifactsBlock artifacts={ARTIFACTS} filterText={this.state.filterText} />
+            </div>
+          </div>
+        </div>
+      </section>
     );
   }
 }

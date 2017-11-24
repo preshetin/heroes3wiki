@@ -6,7 +6,7 @@ import getSlotsFromAtrifactsList, { filterArtifacts } from './util.js';
 
 class SlotRow extends Component {
   render() {
-    return <h2>{this.props.name}</h2>;
+    return <div className="subtitle">{this.props.name}</div>;
   }
 }
 

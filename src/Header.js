@@ -1,17 +1,19 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import BulmaNavLink from './BulmaNavLink'
 
 const Header = () => (
   <div>
-    <header className="App-header">
-      <h1 className="App-title">Heroes 3 Wiki</h1>
+    <header >
+      <div style={{ fontFamily: 'VT323', fontSize: '35px', textAlign: 'center'}}>Heroes 3 Wiki</div>
     </header>
-    <ul>
-      <li><NavLink exact to="/">Home</NavLink></li>
-      <li><NavLink to="/about">About</NavLink></li>
-      <li><NavLink to="/artifacts">Artifacts</NavLink></li>
-    </ul>
-    <hr/>
+    <div class="tabs is-centered">
+      <ul>
+        <BulmaNavLink activeOnlyWhenExact={true} to="/" label="Home"/>
+        <BulmaNavLink to="/about" label="About" />
+        <BulmaNavLink to="/artifacts" label="Artifacts" />
+      </ul>
+    </div>
   </div>
 )
 
