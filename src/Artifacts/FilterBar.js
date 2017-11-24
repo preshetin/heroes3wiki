@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Sticky from 'react-stickynode'
 
 class FilterBar extends Component {
 
@@ -13,112 +14,114 @@ class FilterBar extends Component {
 
   render() {
     return (
-      <nav class="panel">
-        <div class="panel-block">
-          <p class="control has-icons-left">
-            <input type="text" class="input" placeholder="search" value={this.props.filterText} onChange={this.handleFilterTextChange} />
-            <span class="icon is-small is-left">
-              <i class="fa fa-search"></i>
-            </span>
-          </p>
-        </div>
-        <div class="panel-block">
-          <div class="field">
-            <p class="control">
-              <div class="b-checkbox is-warning">
-                <input id="checkbox" class="styled" type="checkbox" />
-                <label for="checkbox">
-                    Minor
-                </label>
-              </div>
-              <div class="b-checkbox is-warning">
-                <input id="checkbox" class="styled" type="checkbox" />
-                <label for="checkbox">
-                    Major
-                </label>
-              </div>
-              <div class="b-checkbox is-warning">
-                <input id="checkbox" class="styled" type="checkbox" />
-                <label for="checkbox">
-                    Teasure
-                </label>
-              </div>
-              <div class="b-checkbox is-warning">
-                <input id="checkbox" class="styled" type="checkbox" />
-                <label for="checkbox">
-                    Combo
-                </label>
-              </div>
+      <Sticky enabled={true} top={100} innerZ={1000}  >
+        <nav class="panel is-hidden-mobile">
+          <div class="panel-block">
+            <p class="control has-icons-left">
+              <input type="text" class="input" placeholder="search" value={this.props.filterText} onChange={this.handleFilterTextChange} />
+              <span class="icon is-small is-left">
+                <i class="fa fa-search"></i>
+              </span>
             </p>
           </div>
-        </div>
-        <div class="panel-block">
-          <div class="field">
-            <p class="control">
-              <div class="b-checkbox is-warning">
-                <input id="checkbox" class="styled" type="checkbox" />
-                <label for="checkbox">
-                    Cape
-                </label>
-              </div>
-              <div class="b-checkbox is-warning">
-                <input id="checkbox" class="styled" type="checkbox" />
-                <label for="checkbox">
-                    Feet
-                </label>
-              </div>
-              <div class="b-checkbox is-warning">
-                <input id="checkbox" class="styled" type="checkbox" />
-                <label for="checkbox">
-                    Helm
-                </label>
-              </div>
-              <div class="b-checkbox is-warning">
-                <input id="checkbox" class="styled" type="checkbox" />
-                <label for="checkbox">
-                    Left Hand
-                </label>
-              </div>
-              <div class="b-checkbox is-warning">
-                <input id="checkbox" class="styled" type="checkbox" />
-                <label for="checkbox">
-                    Miscellaneous
-                </label>
-              </div>
-              <div class="b-checkbox is-warning">
-                <input id="checkbox" class="styled" type="checkbox" />
-                <label for="checkbox">
-                    Necklace
-                </label>
-              </div>
-              <div class="b-checkbox is-warning">
-                <input id="checkbox" class="styled" type="checkbox" />
-                <label for="checkbox">
-                    Right Hand
-                </label>
-              </div>
-              <div class="b-checkbox is-warning">
-                <input id="checkbox" class="styled" type="checkbox" />
-                <label for="checkbox">
-                    Ring
-                </label>
-              </div>
-              <div class="b-checkbox is-warning">
-                <input id="checkbox" class="styled" type="checkbox" />
-                <label for="checkbox">
-                    Torso
-                </label>
-              </div>
-              <div class="b-checkbox is-warning">
-                <input id="checkbox" class="styled" type="checkbox" />
-                <label for="checkbox">
-                    Torso(9 slots)
-                </label>
-              </div>
-            </p>
+          <div class="panel-block">
+            <div class="field">
+              <p class="control">
+                <div class="b-checkbox is-warning">
+                  <input id="checkbox" class="styled" type="checkbox" />
+                  <label for="checkbox">
+                      Minor
+                  </label>
+                </div>
+                <div class="b-checkbox is-warning">
+                  <input id="checkbox" class="styled" type="checkbox" />
+                  <label for="checkbox">
+                      Major
+                  </label>
+                </div>
+                <div class="b-checkbox is-warning">
+                  <input id="checkbox" class="styled" type="checkbox" />
+                  <label for="checkbox">
+                      Teasure
+                  </label>
+                </div>
+                <div class="b-checkbox is-warning">
+                  <input id="checkbox" class="styled" type="checkbox" />
+                  <label for="checkbox">
+                      Combo
+                  </label>
+                </div>
+              </p>
+            </div>
           </div>
-        </div>
-      </nav>
+          <div class="panel-block">
+            <div class="field">
+              <p class="control">
+                <div class="b-checkbox is-warning">
+                  <input id="checkbox" class="styled" type="checkbox" />
+                  <label for="checkbox">
+                      Cape
+                  </label>
+                </div>
+                <div class="b-checkbox is-warning">
+                  <input id="checkbox" class="styled" type="checkbox" />
+                  <label for="checkbox">
+                      Feet
+                  </label>
+                </div>
+                <div class="b-checkbox is-warning">
+                  <input id="checkbox" class="styled" type="checkbox" />
+                  <label for="checkbox">
+                      Helm
+                  </label>
+                </div>
+                <div class="b-checkbox is-warning">
+                  <input id="checkbox" class="styled" type="checkbox" />
+                  <label for="checkbox">
+                      Left Hand
+                  </label>
+                </div>
+                <div class="b-checkbox is-warning">
+                  <input id="checkbox" class="styled" type="checkbox" />
+                  <label for="checkbox">
+                      Miscellaneous
+                  </label>
+                </div>
+                <div class="b-checkbox is-warning">
+                  <input id="checkbox" class="styled" type="checkbox" />
+                  <label for="checkbox">
+                      Necklace
+                  </label>
+                </div>
+                <div class="b-checkbox is-warning">
+                  <input id="checkbox" class="styled" type="checkbox" />
+                  <label for="checkbox">
+                      Right Hand
+                  </label>
+                </div>
+                <div class="b-checkbox is-warning">
+                  <input id="checkbox" class="styled" type="checkbox" />
+                  <label for="checkbox">
+                      Ring
+                  </label>
+                </div>
+                <div class="b-checkbox is-warning">
+                  <input id="checkbox" class="styled" type="checkbox" />
+                  <label for="checkbox">
+                      Torso
+                  </label>
+                </div>
+                <div class="b-checkbox is-warning">
+                  <input id="checkbox" class="styled" type="checkbox" />
+                  <label for="checkbox">
+                      Torso(9 slots)
+                  </label>
+                </div>
+              </p>
+            </div>
+          </div>
+        </nav>
+      </Sticky>
     );
   }
 }
