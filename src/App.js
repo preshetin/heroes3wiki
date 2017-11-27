@@ -1,7 +1,8 @@
 import React from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Header from './Header'
-import FilteredArtifactsBlock from './Artifacts/FilteredArtifactsBlock';
+import FilteredArtifactsBlock from './Artifacts/FilteredArtifactsBlock'
+import Spells from './Spells/Spells'
 import './App.css'
 
 
@@ -23,8 +24,9 @@ const App = () => (
       <Header />
 
       <Route exact path="/" component={Home}/>
-      <Route path="/about" component={About}/>
+      <Route path="/spells" component={Spells}/>
       <Route path="/artifacts" component={FilteredArtifactsBlock}/>
+      
     </div>
   </Router>
 )

@@ -1,26 +1,9 @@
 import React, { Component } from 'react';
-import Artifact from './Artifact.js';
 import getSlotsFromAtrifactsList, { filterArtifacts } from './util.js';
+import TitleRow from '../TitleRow'
+import ArtifactsList from './ArtifactsList'
 
-
-
-class SlotRow extends Component {
-  render() {
-    return <div className="subtitle">{this.props.name}</div>;
-  }
-}
-
-class AtrifactsList extends Component {
-  render() {
-    return (
-      <div>
-        {this.props.artifacts.map(art => <Artifact artifact={art} key={art.id} /> )}
-      </div>
-    );
-  }
-}
-
-class ArtifactsTable extends Component {
+class ArtifactsBlock extends Component {
   render() {
 
     const rows = [];
@@ -33,8 +16,8 @@ class ArtifactsTable extends Component {
 
       rows.push(
         <div key={key} >
-          <SlotRow name={slot} />
-          <AtrifactsList artifacts={artifacts} />
+          <TitleRow name={slot} />
+          <ArtifactsList artifacts={artifacts} />
         </div>
       );
     });
@@ -47,4 +30,4 @@ class ArtifactsTable extends Component {
   }
 }
 
-export default ArtifactsTable;
+export default ArtifactsBlock;

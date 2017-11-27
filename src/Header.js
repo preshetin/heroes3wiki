@@ -12,7 +12,7 @@ const Header = () => (
       <div class="tabs is-centered">
         <ul>
           <BulmaNavLink activeOnlyWhenExact={true} to="/" label="Home"/>
-          <BulmaNavLink to="/about" label="About" />
+          <BulmaNavLink to="/spells" label="Spells" />
           <BulmaNavLink to="/artifacts" label="Artifacts" />
         </ul>
       </div>
