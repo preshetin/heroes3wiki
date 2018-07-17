@@ -14,9 +14,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://preshetin.github.io/heroes3wiki"
+  "homepage": "https://preshetin.github.io/heroes3wiki/"
 }
